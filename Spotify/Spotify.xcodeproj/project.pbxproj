@@ -97,11 +97,13 @@
 		8CFE41852C92007400D3BEBC /* Spotify */ = {
 			isa = PBXGroup;
 			children = (
+				8CFE41F32C94BC6500D3BEBC /* Resources */,
+				8CFE41F62C94BD3300D3BEBC /* Models */,
+				8CFE41F52C94BD2600D3BEBC /* Services */,
+				8CFE41F42C94BC7100D3BEBC /* ViewModels */,
+				8CFE41F22C94BC4C00D3BEBC /* UI */,
 				8CFE41862C92007400D3BEBC /* AppDelegate.swift */,
 				8CFE41882C92007400D3BEBC /* SceneDelegate.swift */,
-				8CFE418A2C92007400D3BEBC /* ViewController.swift */,
-				8CFE418F2C92007500D3BEBC /* Assets.xcassets */,
-				8CFE41912C92007500D3BEBC /* LaunchScreen.storyboard */,
 				8CFE41942C92007500D3BEBC /* Info.plist */,
 			);
 			path = Spotify;
@@ -122,6 +124,52 @@
 				8CFE41A92C92007500D3BEBC /* SpotifyUITestsLaunchTests.swift */,
 			);
 			path = SpotifyUITests;
+			sourceTree = "<group>";
+		};
+		8CFE41F22C94BC4C00D3BEBC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8CFE41F72C94BD5D00D3BEBC /* ViewControllers */,
+				8CFE41912C92007500D3BEBC /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8CFE41F32C94BC6500D3BEBC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CFE418F2C92007500D3BEBC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8CFE41F42C94BC7100D3BEBC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8CFE41F52C94BD2600D3BEBC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8CFE41F62C94BD3300D3BEBC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CFE41F72C94BD5D00D3BEBC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CFE418A2C92007400D3BEBC /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
